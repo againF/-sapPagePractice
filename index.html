@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<title></title>
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="sa-navbar-global-top"></div>
+				</div>
+			</div>
+			<div class="row sa-navbar-global">
+				<div class="col-md-12">
+					<div class="">
+						<div class="navbar-header">
+							<a class="navbar-brand" href="javascript:void(0)">
+								againF
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row headBackgroundColor">
+				<!--head-->
+				<div class="col-md-12">
+					<div class="row">
+						<div class="col-md-12">
+							<ul class="breadcrumb">
+								<li>
+									<a href="index.html">index</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+
+							<span id="headTitle">
+								<span id="icon-1"><img src="img/sharedIcon.png"/></span>SAP SuccessFactors Employee Central
+							</span>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-md-6" class="headerContent">
+							<p>SAP SuccessFactors Employee Central serves not only as a system of record for all people- and HR-related data, but also as a platform where everything in the organization comes together to transform the work experience.</p>
+						</div>
+					</div>
+					<div class="row">
+						<!--nav-->
+						<div class="col-md-12">
+							<nav class="" role="navigation">
+								<div class="">
+									<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav">
+										<span class="sr-only">切换导航</span>
+										<span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+									</button>
+								</div>
+								<div class="collapse navbar-collapse" id="nav">
+									<ul class="nav navbar-nav">
+										<li class="">
+											<button class="navBtn activeNavBtn" id="overViewBtn" onclick="changeTab(this)">
+												<span class="compatibilityForIE">OVERVIEW</span>
+											</button>
+										</li>
+										<li>
+											<button class="navBtn" id="artifactsBtn" onclick="changeTab(this)">
+												<span class="compatibilityForIE">ARTIFACTS(20)</span>
+											</button>
+										</li>
+									</ul>
+								</div>
+
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<!--context-->
+				<div class="overViewArea">
+					<div class="col-md-7 col-md-offset-1">
+						<div class="row">
+							<div class="col-md-3">
+								<div class="label"><label for="description">Description</label></div>
+							</div>
+							<div class="col-md-9">
+								<div class="context">
+									<p>SAP SuccessFactors Employee Central serves not only as a system of record for all people- and HR-related data, but also as a platform where everything in the organization comes together to transform the work experience. The HR organization can build value-based relationships with everyone supporting the business – engaging permanent and external workers to collaborate in new ways, using consumer-style tools and social HR. And it can help management design, plan, and implement better people strategies for better business results. One of the main strengths of SAP SuccessFactors Employee Central is its global and unmatched localized capabilities, ensuring legal and corporate compliance and taking into consideration local culture and people’s expectations for broad and seamless adoption.</p>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-3">
+								<div class="label"><label for="Supported Platform">Supported Platform</label></div>
+							</div>
+							<div class="col-md-9">
+								<div class="context">
+									<p>SAP API Management</p>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-3">
+								<div class="label"><label for="Category">Category</label></div>
+							</div>
+							<div class="col-md-9">
+								<div class="context">APIs</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-3">
+								<div class="label"><label for="Created">Created</label></div>
+							</div>
+							<div class="col-md-9">
+								<div class="context">
+									<p>Wed, 17 May 2017 10:30:19 GMT</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="artifactsArea hide">
+				<table class="table" id="artifactsTable">
+					<thead>
+						<tr>
+							<th>Name</th>
+							<th>Type</th>
+							<th>Version</th>
+						</tr>
+					</thead>
+					<tbody valign="middle">
+						<tr>
+							<td class="selectedRow">
+								<a href="#">Advances</a>
+							</td>
+							<td class="selectedRow">ODATA API</td>
+							<td class="selectedRow">1.0</td>
+						</tr>
+						<tr>
+							<td>
+								<a href="#">Alternative Cost Distribution</a>
+							</td>
+							<td>ODATA API</td>
+							<td>1.0</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		</div>
+		<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="js/indexCtrl.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>
